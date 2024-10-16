@@ -1,0 +1,38 @@
+.sort-filter {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .dropdown-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .dropdown-container label {
+    margin-right: 5px; 
+    font-weight: bold; 
+    white-space: nowrap; 
+  }
+  
+  .sort-filter select {
+    padding: 8px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    background-color: #fff;
+    cursor: pointer; 
+    transition: border-color 0.3s;
+  }
+  
+  .sort-filter select:hover {
+    border-color: #888;
+  }
+  
+  .sort-filter select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
